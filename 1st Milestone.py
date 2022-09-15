@@ -11,9 +11,9 @@ sttt = ['#','X','O','X','O','X','O','X','O','X']
 def player_input():
     marker=''
     while marker not in ['X','O']:
-        marker=input("Bitteuhuh schreib X oder O: ")
+        marker=input("Pleas enter X or O: ")
         if marker not in ['X','O']:
-            print('Schreib die angmessene Antwort')
+            print('Please write the correct option')
     player1 = marker
     if player1 == 'X':
         return ('X','O')
